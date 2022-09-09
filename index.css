@@ -1,0 +1,46 @@
+body{
+    max-width: 100%;
+}
+header{
+    text-align: center;
+    /* border-bottom: 1px solid rgb(128, 128, 128, 0.1); */
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.05) 0px 18px 36px -18px inset;
+}
+main{
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.itemValor{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+li{
+    background-color: rgb(234, 234, 234);
+    border-radius: 7px;
+    list-style: none;
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    height: 30px;
+}
+button{
+    width: 40vh;
+    margin-left: 5%;
+    background-color: rgba(7, 251, 7, 0.8);
+    border: none;
+    border-radius: 5px;
+    height: 4vh;    
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 500ms;
+}
